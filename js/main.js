@@ -75,7 +75,7 @@ function populateHTML() {
 	divB.className = 'navbar-nav';
 	divB.id = 'target';
 	// contDiv
-	contDiv.className = 'text-center container-fluid pt-5';
+	contDiv.className = 'text-center container pt-5';
 	contDiv.id = 'cont';
 
 	// appending
@@ -106,9 +106,9 @@ function navBar(colorCode, array, isLight) {
 		a.textContent = array[i].text;
 		a.target = '_blank';
 		img.src = array[i].img;
-		img.className = 'w-50';
+		img.className = 'w-75';
 		p.textContent = array[i].about;
-		p.className = 'p-5'
+		p.className = 'p-5 h3'
 		dispDiv.className = 'mt-3 border border-secondary'
 		// a.style.color = 'white';
 		// appending
